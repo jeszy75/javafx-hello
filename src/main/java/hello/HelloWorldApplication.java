@@ -22,7 +22,7 @@ public class HelloWorldApplication extends Application {
         stage.show();
     }
 
-    public Parent createRoot() {
+    private Parent createRoot() {
         var root = new StackPane();
         root.setBackground(Background.fill(Color.SLATEBLUE));
         var text = new Text("Hello, World!");
